@@ -1,0 +1,293 @@
+html{
+    box-sizing: border-box;
+    
+}
+
+*, 
+*::before,
+*,::after{
+    box-sizing: inherit;
+    margin: 0; 
+    padding: 0; 
+}
+
+body{
+    background: linear-gradient(320deg,#00293c,#1e656d,#f1f3ce, #f62a00);
+    font-family:'Courier New', Courier, monospace; 
+    display: block;
+    
+    
+}
+
+.encabezado{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255, 0.3);
+    border: 1px solid rgba(255,255,255, 0.34);
+    width:100%;
+    padding:15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.fondo-portada{
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    height: inherit;
+    padding: 10%;
+    
+
+}
+.seccion-portada{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    background: rgba(255,255,255, 0.3);
+    border: 3px solid rgba(255,255,255, 0.34);
+    border-radius: 5px;
+    color: black;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    padding: 5%;
+    background-image: linear-gradient(320deg, rgba(255,255,0,0.5),rgba(0,0,255,0.5)), url('https://img.buzzfeed.com/buzzfeed-static/static/2018-04/27/17/asset/buzzfeed-prod-web-08/anigif_sub-buzz-30067-1524864069-1.gif');
+
+}
+.pinchaaqui{
+    position: relative;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    background: rgba(255,255,255, 0.3);
+    border: 3px solid rgba(255,255,255, 0.34);
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    background-image: url('');
+  }
+  
+  .pinchaaqui:before{
+    content:"";
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 0px;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    transition: all 1s ease; 
+
+
+  }
+  .pinchaaqui:hover:before{
+    width: 100%;
+
+  }
+  .pinchaaqui:hover{
+    background-color: rgb(238, 88, 1);
+    transition: 0.5s;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+    border-radius: 20px;
+  }
+
+
+
+}
+    
+.pie{
+
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255, 0.3);
+    border: 1px solid rgba(255,255,255, 0.34);
+    width:100%;
+    padding:15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    margin-top: 190px;
+
+}
+
+.fondo-fondo{
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    height: inherit;
+    padding: 10%
+    
+
+}
+
+.fondo-elegir{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255, 0.3);
+    border: 1px solid rgba(255,255,255, 0.34);
+    width:300px;
+    padding: 17px 300px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    place-content: center;
+    align-self: center;
+}
+
+.fondodado{
+    align-items: center;
+    display: grid;
+    place-content: center;
+    align-self: center;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: linear-gradient(0deg,#257296,#37818a, #e6806c);    
+    border: 1px solid rgba(255,255,255, 0.34);
+    padding: 10px 50px;
+    margin: 10px;
+}
+
+.fondomoneda{
+    
+    align-items: center;
+    display: grid;
+    place-content: center;
+    align-self: center;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: linear-gradient(180deg,#257296,#37818a, #e6806c); 
+    border: 1px solid rgba(255,255,255, 0.34);
+    padding: 10px 50px;
+    margin: 10px;
+}
+
+.fondo-moneda{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    
+}
+.caracruz{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fondotexto{
+    margin: 15px;
+    padding: 10px;
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    color: black;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255, 0.3);
+
+    }
+    .fondotexto:hover{
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+
+
+    }
+
+    
+}
+.numeromoneda{
+    margin: 10px; 
+    padding: 20px; 
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255,255,255, 0.3);
+    color: black; 
+    display: flex; 
+    justify-content: center; 
+    border-radius: 8px;
+    border: 3px solid rgba(255,255,255, 0.3);
+
+}
+
+.menuboton{
+    position: relative;
+    box-shadow: 0 4px 30px rgba(35,35,35,0.01);
+    background: rgba(255,255,255, 0.1);
+    border: 2px solid rgba(255,255,255, 0.34);
+    padding: 5px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    background-image: url('');
+  }
+  
+  .menuboton:before{
+    content:"";
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+    width: 0px;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    transition: all 1s ease; 
+
+
+  }
+  .menuboton:hover:before{
+    width: 100%;
+
+  }
+  .menuboton:hover{
+    background-color: rgb(84, 136, 196,0.8);
+    transition: 0.5s;
+
+
+
+}
+.cuadrado{
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img_dado{
+    margin: 10px;
+    border: 1px solid white;
+}
+.img_moneda{
+    margin: 10px;
+    border: 1px solid white;
+
+}
+@media only screen and (max-width: 500px) {
+    .fondo-elegir{
+        
+        flex-direction: column;
+       
+    }
+  }
